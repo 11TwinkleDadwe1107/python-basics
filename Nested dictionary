@@ -1,0 +1,12 @@
+
+student ={
+    "name" : "twinkle",
+    "subjects" : {
+        "physics" : 96,
+         "maths" : 99,
+         "chemistry" : 90,
+    }
+}
+print(student["subjects"]["maths"])
+print(student["subjects"])
+print(student)
