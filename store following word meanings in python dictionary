@@ -1,0 +1,6 @@
+
+dictionary = {
+    "table" : ["a pieceoffurniture" , "list of facts and figures"],
+    "cat" : "a small animal"
+}
+print(dictionary)
