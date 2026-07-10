@@ -1,0 +1,7 @@
+#using for loop and range print no. 1-100
+for i in range(1, 101):
+    print(i)
+   
+#using for loop and range print no. 100-1
+for i in range(1, 101, -1):
+    print(i)
