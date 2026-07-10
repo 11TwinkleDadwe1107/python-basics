@@ -1,0 +1,15 @@
+#print element of list using for loop
+nums= [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+for el in nums:
+    print(el)
+    
+#search number x in the tuple using for loop
+nums= [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+x = 81
+index = 0
+for el in nums:
+    if(el == x):
+        print("number found at index", index)
+        break
+    index += 1
+   
