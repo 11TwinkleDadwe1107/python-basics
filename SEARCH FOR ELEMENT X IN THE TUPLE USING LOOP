@@ -1,0 +1,8 @@
+
+nums= ( 1, 3, 5, 7, 6, 32, 45 ,56 ,30)
+x= 45
+i=0
+while i< len(nums):
+    if(nums[i] ==x):
+        print("found at index: ", i)
+        i += 1
