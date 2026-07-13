@@ -1,0 +1,12 @@
+
+cities=["nagpur", "delhi", "mumbai", "banglore", "udaipur","guwahati"]
+fruits=["pineapple", "mango", "litchi", "apple", "orange", "berries"]
+
+def print_len(list):
+    print(len(list))
+def print_list(list):
+    for item in list:
+        print(item, end=" ")
+        
+print_list(fruits)
+print()
