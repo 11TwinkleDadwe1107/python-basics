@@ -1,0 +1,17 @@
+with open("practice.txt", "w") as f:
+    f.write("hi everyone\n we are learning python\n")
+    f.write("now start other\n twinkle dadwe\n")
+
+def check_for_line():
+    word= "twinkle"
+    data= True
+    line_no= 1
+    with open("practice.txt", "r") as f:
+        while data:
+            data= f.readline()
+            if(word in data):
+                print(line_no)
+                return
+            line_no += 1
+    return -1
+check_for_line()
