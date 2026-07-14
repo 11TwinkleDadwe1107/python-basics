@@ -1,0 +1,4 @@
+
+with open("practice.txt", "w") as f:
+    f.write("hi everyone\n we are learning python\n")
+    f.write("now start other\n twinkle dadwe\n")
