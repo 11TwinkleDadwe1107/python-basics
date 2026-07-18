@@ -1,0 +1,20 @@
+#circle class to create circle with radius using constructor
+#area() method of class to claculate area of circle
+#perimeter() method of class to calculate perimeter of circle
+
+
+
+class circle:
+    def __init__(self, radius):
+        self.radius= radius
+    
+    def area(self):
+        return (22/7) * self.radius ** 2
+    
+    def perimeter(self):
+        return 2 * (22/7) * self.radius
+    
+circle1= circle(26)
+print(circle1.area())
+print(circle1.perimeter())
+    
