@@ -1,0 +1,21 @@
+
+
+class car:
+    colour= "white"
+    @staticmethod
+    def start():
+        print("car is starting")
+
+    @staticmethod
+    def stop():
+        print("car is stopping")
+
+class toyotacar(car):
+        def __init__(self, name):
+            self.name= name
+
+car1 = toyotacar("defender")
+car2 = toyotacar("sieera")
+
+print(car1.name)
+print(car2.colour)
