@@ -1,0 +1,16 @@
+
+
+class apple:
+    varapple= "eat apple"
+
+class banana:
+    varbanana= "eat banana"
+
+class fruit(apple, banana):
+    varfruit= "eat all fruit"
+
+fruit1= fruit()
+
+print(fruit1.varfruit)
+print(fruit1.varapple)
+print(fruit1.varbanana)
